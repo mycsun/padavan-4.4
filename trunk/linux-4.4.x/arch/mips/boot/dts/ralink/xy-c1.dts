@@ -18,12 +18,12 @@
 
 		work {
 			label = "lan";
-			gpios = <&gpio0 8 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 18 GPIO_ACTIVE_LOW>;
 		};
 
 		sys {
 			label = "power";
-			gpios = <&gpio0 7 GPIO_ACTIVE_LOW>;
+			gpios = <&gpio0 17 GPIO_ACTIVE_LOW>;
 		};
 	};
 
